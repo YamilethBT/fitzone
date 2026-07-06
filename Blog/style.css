@@ -368,3 +368,109 @@ header img {
     object-fit: fill; 
     display: block;
 }
+@media (max-width: 768px) {
+    .contenedor {
+        width: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    header img {
+        margin-left: 0;
+    }
+
+    #menu {
+        padding-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fila-dos-columnas {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contenido-rutina {
+        height: auto;
+    }
+
+    .seccion-guia-consejos {
+        height: auto;
+        overflow: visible;
+    }
+
+    .imagenes-verticales {
+        height: auto;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .imagenes-verticales .marcador-imagen {
+        flex: 1;
+        height: 250px;
+    }
+
+    #contenedor3 {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .column2, .column4 {
+        border-left: none;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-blog {
+        font-size: 40px;
+    }
+
+    #menu a {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .marcador-imagen {
+        height: 250px;
+    }
+
+    .imagenes-verticales {
+        flex-direction: column;
+    }
+
+    .imagenes-verticales .marcador-imagen {
+        height: 200px;
+    }
+
+    .tarjeta-informacion {
+        padding: 20px;
+    }
+
+    .banner-motivacional {
+        padding: 25px;
+    }
+
+    .banner-motivacional p {
+        font-size: 16px;
+    }
+
+    #contenedor3 {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .logoPie, .iconos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .column2 li {
+        justify-content: center;
+    }
+}
