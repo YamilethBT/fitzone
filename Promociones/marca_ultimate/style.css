@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    padding: 15px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#franjaVerde {
+    background-color: #96cf06;
+    height: 30px;
+    width: 100%;
+}
+
+header img {
+    margin-left: 25px;
+    width: 200px;
+    height: auto;
+}
+
+#menu {
+    padding-right: 15px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#menu a {
+    margin: 5px 10px;
+    font-family: teko;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    text-align: center;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+#menu a:hover {
+    background-color: #96cf06;
+    border-radius: 50px;
+    color: black;
+}
+
+#menu #boton {
+    background-color: #96cf06;
+    color: white;
+    padding: 5px 20px; 
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu #boton:hover {
+    background-color: #64748b;
+    color: white;
+    padding: 5px 20px; 
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+#primer_banner{
+    align-items: center;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: var(--gris_medio);
+    border-bottom-width: 3px;
+    background-color: #dee4ec;
+    font-family: philosopher;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: teko;
+
+}
+
+#primer_banner p{
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
+#primer_banner span{
+    color: #96CF06;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+#p1, #p2{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+#p1{
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#filtros{
+    background-color: #dee4ec;
+    width: 90%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: philosopher;
+}
+
+#filtros h3{
+    text-align: center;
+    font-size: 25px;
+    color: #1f2937;
+    margin-top: 10px;
+
+}
+
+#filtros ol ul li{
+    margin-left: 70px;
+    transition: 0.3s;
+}
+
+#filtros ol ul li a{
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bold;
+    line-height: 22px;
+    
+}
+
+#filtros ol ul li:hover{
+    transform: translateX(10px);
+}
+
+#filtros ol li{
+    margin-left: 40px;
+}
+
+#promo_destacada{
+    background-color: #dee4ec;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family: philosopher;
+    margin-top: 30px;
+}
+
+#promodestacadapie:hover{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#promo_destacada h3{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #1f2937;
+    padding: 20px;
+    background-color: #e9fabc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#promo_destacada a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--gris_carbon);
+    font-weight: bold;
+    padding: 20px 0;
+    border-top: 3px solid #1f2937;
+}
+
+#p1 img{
+    display: flex;
+    height: 800px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 280px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#p2{
+    width: 75%;
+    margin-left: 15px;
+    margin-right: 10px;  
+    position: static;
+    height: 100%;
+    top: 0px;
+    border-left-style: solid;
+    border-left-color: var(--gris_medio);
+}
+
+
+
+
+
+
+
+
+
+
+
+.comprar{
+    background-color: var(--verde_energia);
+    padding: 20px 50px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--blanco_suave);
+    position: static;
+    background: linear-gradient(var(--verde_energia), var(--verde_energia));
+    transition: 0.25s;
+}
+
+
+
+
+
+
+
+
+#ULTIMATE_NUTRITION{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#part1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#part1 h2{
+    font-family: teko;
+    font-size: 70px;
+    margin: auto;
+}
+
+#part1 h2 span{
+    color: var(--verde_energia);
+}
+
+#part2{
+    display: flex;
+    align-items: center;
+}
+
+#caja_productos {
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+
+.etiqueta_desc{
+    width: 70px;
+    height: 40px;
+    display: block;
+    background-color: var(--naranja_activo);
+    color: var(--blanco_suave);
+    font-family: teko;
+    font-size: 25px;
+    margin-bottom: -45px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+.productos{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 23px;
+    padding: 15px;
+    padding-top: 7px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.productos img{
+    width: auto;
+    height: 200px;
+    border-radius: 37px;
+    padding: 10px;
+}
+
+.info_product{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-family: philosopher;
+}
+
+
+.titulo{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.preciocompra{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#precios_relam{
+    display: flex;
+}
+
+.descuent{
+    width:  150px;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27px;
+    background-color: var(--naranja_activo);
+    border-radius: 5px;
+    text-align: left;
+    font-family: philosopher;
+    display: flex;
+}
+
+.precio_anterior{
+    display: flex;
+    width: 120px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #64748b;
+    font-family: philosopher;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#piePag {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px 40px 10px;
+}
+
+#contenedor3 {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1.4fr;
+    gap: 30px;
+    align-items: start;
+}
+
+#piePag h3 {
+    font-family: "Teko";
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.logoPie img {
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+}
+
+.iconos a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #96cf06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.column2 ul, .column3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column2 li {
+    font-family: "philosopher";
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.column2 li img {
+    width: 18px;
+    height: 18px;
+}
+
+.column3 li {
+    font-family: "philosopher";
+    margin-bottom: 15px;
+}
+
+.column3 a {
+    color: white;
+}
+
+.column3 a:hover {
+    color: #96cf06;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form input {
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "philosopher";
+    font-size: 17px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    background-color: #96cf06;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form button:hover {
+    background-color: #64748b;
+}
+
+.column2, .column4 {
+    border-left: 1px solid #64748b;
+    padding-left: 30px;
+}
+
+.autor {
+    font-family: "philosopher";
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #96cf06;
+    margin: auto;
+    color: #d1d5db;
+    font-size: 14px;
+}
+
+.autor p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#promo_destacada a:hover{
+    background-color: #c7e184;
+}
+
+#gmail a:hover{
+    background-color: #5a7d03;
+    color: var(--blanco_suave);
+}
+
+.comprar:hover{
+    transform: scale(1.1);
+    background: linear-gradient(var(--verde_energia), var(--gris_medio));
+}
+
+
+:root{
+    --verde_energia: #96CF06;
+    --gris_carbon: #1f2937;
+    --blanco_suave: #f8fafc;
+    --gris_medio: #64748b;
+    --naranja_activo: #ff7a00;
+}
+
+@font-face {
+    font-family: philosopher;
+    src: url(../fuentes_fitzone/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: Teko;
+    src: url(../fuentes_fitzone/Teko-Bold.ttf);
+}

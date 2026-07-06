@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'MiFuenteTitulo';
+    src: url(Teko-Bold\ \(1\).ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'MiFuenteTexto';
+    src: url(Philosopher-Regular\ \(1\).ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F8FAFC; 
+    color: #1F2937;            
+    font-family: 'MiFuenteTexto', Arial, sans-serif;
+    font-size: 16px; 
+    line-height: 1.6;
+}
+
+.contenedor {
+    width: 85%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.marcador-imagen {
+    background-color: #E2E8F0;
+    border: 2px dashed #64748B;
+    height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #64748B;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Cambiado a column para evitar desalineación de bloques principales */
+}
+
+#franjaVerde {
+    background-color: #96cf06;
+    height: 30px;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    padding: 15px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin-left: 25px;
+    width: 200px;
+    height: auto;
+}
+
+#menu {
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu a {
+    margin: 5px 10px;
+    font-family: 'MiFuenteTitulo', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#menu a:hover {
+    background-color: #96cf06;
+    border-radius: 50px;
+    color: black;
+}
+
+#menu #boton {
+    background-color: #96cf06;
+    color: white;
+    padding: 5px 20px; 
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu #boton:hover {
+    background-color: #64748b;
+    color: white;
+}
+
+.seccion-titulo {
+    text-align: center;
+    margin: 50px 0; 
+    width: 100%;
+}
+
+.titulo-blog {
+    font-family: 'MiFuenteTitulo', sans-serif;
+    font-size: 60px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.fila-dos-columnas {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.fila-dos-columnas > div {
+    flex: 1;
+}
+
+.tarjeta-informacion {
+    background-color: #ffffff;
+    border: 1px solid #E2E8F0;
+    padding: 35px; 
+    border-radius: 6px;
+}
+
+.tarjeta-informacion h3 {
+    font-family: 'MiFuenteTitulo', sans-serif;
+    font-size: 24px; 
+    margin-bottom: 20px;
+    border-left: 5px solid #96CF06;
+    padding-left: 12px;
+    text-transform: uppercase;
+    color: #1F2937;
+}
+
+.contenido-rutina {
+    height: 350px; 
+}
+
+.contenido-rutina p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.contenido-rutina ul {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.contenido-rutina ul li {
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.contenido-rutina ul li::before {
+    content: "•";
+    color: #96CF06;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.seccion-guia-consejos {
+    height: 520px; 
+    overflow: hidden;
+}
+
+.seccion-guia-consejos h4 {
+    color: #64748B;
+    margin-top: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.seccion-guia-consejos p {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #4B5563;
+}
+
+.imagenes-verticales {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 520px; 
+}
+
+.imagenes-verticales .marcador-imagen {
+    height: 250px; 
+}
+
+.banner-motivacional {
+    background-color: #EDF2F7;
+    text-align: center;
+    padding: 45px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.banner-motivacional p {
+    font-size: 20px; 
+    font-style: italic;
+    color: #1F2937;
+}
+
+#piePag {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px 40px 10px;
+}
+
+#contenedor3 {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1.4fr;
+    gap: 30px;
+    align-items: start;
+}
+
+#piePag h3 {
+    font-family: "MiFuentetitulo";
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.logoPie img {
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+}
+
+.iconos a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #96cf06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.column2 ul, .column3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column2 li {
+    font-family: "MiFuenteTexto";
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.column2 li img {
+    width: 18px;
+    height: 18px;
+}
+
+.column3 li {
+    font-family: "MiFuenteTexto";
+    margin-bottom: 15px;
+}
+
+.column3 a {
+    color: white;
+}
+
+.column3 a:hover {
+    color: #96cf06;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form input {
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "MiFuenteTexto";
+    font-size: 17px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    background-color: #96cf06;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form button:hover {
+    background-color: #64748b;
+}
+
+.column2, .column4 {
+    border-left: 1px solid #64748b;
+    padding-left: 30px;
+}
+
+.autor {
+    font-family: "parrafo";
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #96cf06;
+    text-align: center;
+    color: #d1d5db;
+    font-size: 14px;
+}
+.marcador-imagen {
+    padding: 0; 
+    border: none; 
+}
+
+.marcador-imagen .imagen-real {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
+
+.marcador-imagen .imagen-real {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
+    display: block;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfil.css">
+    <title>FITZONE</title>
+</head>
+<body>
+    <main>
+        <div id="franjaVerde"></div>
+        <header>
+            <a href="index.html"><img src="imagenes/logo.png" alt="" id="logo"></a>
+            <nav id="menu">
+                <a href="Suplementos/productos.html">SUPLEMENTOS</a>
+                <a href="Marcas/index.html">MARCAS</a>
+                <a href="Promociones/index.html">PROMOCIONES</a>
+                <a href="Objetivos/carlos.html">OBJETIVOS</a>
+                <a href="Blog/index.html">BLOG</a>
+                <a href="perfil.html" id="boton">PERFIL</a>
+            </nav>
+        </header>
+        <section class="perfil">
+            <div class="tituloPerfil">
+                <h1>Mi perfil</h1>
+                <p>Administra tu información personal y dirección de envío.</p>
+            </div>
+        </section>
+        <section class="datosPerfil">
+            <div class="cardPerfil">
+                <div class="tituloCard">
+                    <img src="iconos/perfil.png" alt="Usuario">
+                    <h2>Información personal</h2>
+                </div>
+                <form>
+                    <div class="fila">
+                        <div class="grupoInput">
+                            <label>Nombres</label>
+                            <input type="text" placeholder="Ingresa tus nombres">
+                        </div>
+                        <div class="grupoInput">
+                            <label>Apellidos</label>
+                            <input type="text" placeholder="Ingresa tus apellidos">
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="grupoInput">
+                            <label>Correo electrónico</label>
+                            <input type="email" placeholder="correo@gmail.com">
+                        </div>
+                        <div class="grupoInput">
+                            <label>Celular</label>
+                            <input type="tel" placeholder="+51 999 999 999">
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="grupoInput">
+                            <label>Fecha de nacimiento</label>
+                            <input type="date">
+                        </div>
+                        <div class="grupoInput">
+                            <label>Género</label>
+                            <select>
+                                <option selected disabled>Seleccionar</option>
+                                <option>Femenino</option>
+                                <option>Masculino</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button>Guardar cambios</button>
+                </form>
+            </div>
+            <div class="cardPerfil">
+                <div class="tituloCard">
+                    <img src="iconos/ubicacion.png" alt="Ubicación">
+                    <h2>Dirección de envío</h2>
+                </div>
+                <form>
+                    <div class="grupoInput ancho">
+                        <label>Dirección</label>
+                        <input type="text">
+                    </div>
+                    <div class="fila">
+                        <div class="grupoInput">
+                            <label>Distrito</label>
+                            <select>
+                                <option>Surco</option>
+                                <option>San Borja</option>
+                                <option>Miraflores</option>
+                            </select>
+                        </div>
+                        <div class="grupoInput">
+                            <label>Provincia</label>
+                            <select>
+                                <option>Lima</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grupoInput ancho">
+                        <label>Referencia</label>
+                        <textarea rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="ubiYcontra">
+            <div class="cardPerfil">
+                <div class="tituloCard">
+                    <h2>Ubicación de la tienda</h2>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.805652155654!2d-77.02739782618175!3d-12.125446143368189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1ses!2spe!4v1783288721564!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+            <div class="cardPerfil">
+                <div class="tituloCard">
+                    <img src="iconos/contrasena.png" alt="Seguridad">
+                    <h2>Cambiar contraseña</h2>
+                </div>
+                <form>
+                    <div class="grupoInput ancho">
+                        <label>Contraseña actual</label>
+                        <input type="password" placeholder="••••••••">
+                    </div>
+                    <div class="fila">
+                        <div class="grupoInput">
+                            <label>Nueva contraseña</label>
+                            <input type="password" placeholder="••••••••">
+                        </div>
+                        <div class="grupoInput">
+                            <label>Confirmar contraseña</label>
+                            <input type="password" placeholder="••••••••">
+                        </div>
+                    </div>
+                    <button type="submit">Actualizar contraseña</button>
+                </form>
+            </div>
+        </section>
+        <footer id="piePag">
+            <div id="contenedor3">
+                <div class="column1">
+                    <div class="logoPie">
+                        <a href="index.html"><img src="imagenes/logo.png" alt="FitZone"></a>
+                    </div>
+                    <div class="iconos">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="iconos/facebook.png" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="iconos/instagram.png" alt="Instagram"></a>
+                        <a href="https://www.tiktok.com/" target="_blank"><img src="iconos/tiktok.png" alt="TikTok"></a>
+                        <a href="https://www.youtube.com/" target="_blank"><img src="iconos/youtube.png" alt="YouTube"></a>
+                    </div>
+                </div>
+                <div class="column2">
+                    <h3>CONTÁCTANOS</h3>
+                    <ul>
+                        <li>
+                            <img src="iconos/wtsapp.png" alt="Whatsapp">
+                            <span>WhatsApp: 999 123 456</span>
+                        </li>
+                        <li>
+                            <img src="iconos/email.png" alt="Email">
+                            <span>info@fitzone.com</span>
+                        </li>
+                        <li>
+                            <img src="iconos/ubicacion.png" alt="Ubicación">
+                            <span>Lima, Perú</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column3">
+                    <h3>ENLACES</h3>
+                    <ul>
+                        <li><a href="enlacesFooter.html">Términos y condiciones</a></li>
+                        <li><a href="enlacesFooter.html#politica">Política de privacidad</a></li>
+                        <li><a href="enlacesFooter.html#cambios">Cambios y devoluciones</a></li>
+                        <li><a href="enlacesFooter.html#preguntas">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="column4">
+                    <h3>SUSCRÍBETE A NUESTRO NEWSLETTER</h3>
+                    <form class="form">
+                        <input type="email" placeholder="Email" required>
+                        <button type="submit">Suscríbete</button>
+                    </form>
+                </div>
+            </div>
+            <div class="autor">
+                <p>&copy; 2026 FitZone. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

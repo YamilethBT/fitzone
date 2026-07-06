@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.cuadropintao{
+    
+    background-color: #96CF06;
+    width: 90%;
+    height: 30px;
+    margin: auto;
+   
+}
+
+
+
+.cuadropinta{
+    
+    background-color:#000000ef;
+    width: 90%;
+    height: 5px;
+    margin: auto;
+    margin-top:20px;
+   
+}
+
+.cuadropin{
+    
+    background-color:#000000;
+    width: 100%;
+    height: 400px;
+    margin-top:20px;
+   
+}
+
+.cuadrop{
+    
+    background-color:#FF7A00;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top:20px;
+   
+}
+
+/*FUENTES*/
+
+@font-face {
+    font-family: philosopher;
+    src: url(../font/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: teko;
+    src: url(../font/Teko-Bold.ttf);
+
+}
+
+/*FUENTES*/
+
+/*KELSY*/
+
+header {
+    background-color: black;
+    padding: 15px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#franjaVerde {
+    background-color: #96cf06;
+    height: 30px;
+    width: 100%;
+}
+
+header img {
+    margin-left: 25px;
+    width: 200px;
+    height: auto;
+}
+
+#menu {
+    padding-right: 15px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#menu a {
+    margin: 5px 10px;
+    font-family: teko;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    text-align: center;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+#menu a:hover {
+    background-color: #96cf06;
+    border-radius: 50px;
+    color: black;
+}
+
+#menu #boton {
+    background-color: #96cf06;
+    color: white;
+    padding: 5px 20px; 
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu #boton:hover {
+    background-color: #64748b;
+    color: white;
+    padding: 5px 20px; 
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*KELSY*/
+
+
+
+.imagensita{
+    margin-top: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: #F8FAFC;
+}
+
+.titulo{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulo h1{
+    margin-top: -41px;
+    font:bold;
+    font-family: teko;
+}
+
+.titulo h2{
+    font-family: teko;
+}
+
+/*PRODUCTO*/
+
+#grid{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto; /*3fr 1fr 3fr*/
+    column-gap: 100px;
+    row-gap: 80px;
+}
+
+.nuestrossuplementos{
+    display: flex;
+    color:  #F8FAFC;
+}
+
+.textito p{
+    padding: 0 80px;
+    text-align: justify;
+    font-family: philosopher;
+    font-size: 20px;
+}
+
+.textito h1{
+    margin-top: 30px;
+        font-family: teko;
+    text-align: center;
+}
+
+.pe{
+    margin-bottom: 20px
+    
+}
+
+
+.imageno{
+    display: flex;  
+    
+}
+
+.imageno img{
+    
+    width: 800px;
+    height: 400px;
+
+}
+
+.titulo2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulo2 h1{
+    font:bold;
+    font-family: teko;
+}
+
+.titulo2 h2{
+    margin-top: -44px;
+    font-family: teko;
+}
+
+
+.producto1{
+    position: relative;
+    background-color: #FF7A00;
+    width: 330px;
+    height: 400px;
+}
+
+.producto1 img{
+    position: absolute;
+    top: 20px;
+    width: 120px;
+}
+
+.producto1 h1{
+    color: white;
+    font-family: teko;
+    font-size: 22px;
+    margin-top: 7px;
+    margin-left: 20px;
+    
+}
+
+.producto1 p{
+    color: white;
+    font-family: philosopher;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.producto1 h2{
+    
+    color: rgb(0, 0, 0);
+    font-family: philosopher;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 20px;
+     
+}
+
+.colorblanco{
+    background-color: white;
+    width: 330px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.botones{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 9px;
+   
+}
+
+.boton2{
+    background-color: #222;
+    width: 290px;
+    height: 40px;
+    color: white;
+    font-family: teko;
+    transition: 1s;
+}
+
+.boton2:hover{
+    background-color:  #6b3400;
+}
+
+.productos{
+    display: grid;
+}
+
+#producto1_{
+    margin-left: 80px;
+    width: auto;
+    height: 218px;
+    
+}
+
+#producto2{
+    margin-left: 90px;
+    width: auto;
+    height: 218px;
+    
+}
+
+#producto3{
+    margin-left: 80px;
+    width: auto;
+    height: 218px;
+}
+
+#producto4{
+    margin-left: 67px;
+    width: auto;
+    height: 218px;
+}
+
+#producto5{
+    margin-left: 85px;
+    width: auto;
+    height: 218px;
+}
+
+#producto6{
+    margin-left: 75px;
+    width: auto;
+    height: 218px;
+}
+
+
+#producto7{
+    margin-left: 110px;
+    width: auto;
+    height: 218px;
+    
+}
+
+#producto8{
+    margin-left: 80px;
+    width: auto;
+    height: 218px;
+}
+
+#producto9{
+    margin-left: 80px;
+    width: auto;
+    height: 218px;
+}
+
+#producto10{
+    margin-left: 75px;
+    width: auto;
+    height: 218px;
+    
+}
+
+
+/*PRODUCTO*/
+
+/*KELSY*/
+
+#piePag {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px 40px 10px;
+}
+
+#contenedor3 {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1.4fr;
+    gap: 30px;
+    align-items: start;
+}
+
+#piePag h3 {
+    font-family: teko;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.logoPie img {
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+}
+
+.iconos a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #96cf06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.column2 ul, .column3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column2 li {
+    font-family: philosopher;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.column2 li img {
+    width: 18px;
+    height: 18px;
+}
+
+.column3 li {
+    font-family: philosopher;
+    margin-bottom: 15px;
+}
+
+.column3 a {
+    color: white;
+}
+
+.column3 a:hover {
+    color: #96cf06;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form input {
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: philosopher;
+    font-size: 17px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    background-color: #96cf06;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form button:hover {
+    background-color: #64748b;
+}
+
+.column2, .column4 {
+    border-left: 1px solid #64748b;
+    padding-left: 30px;
+}
+
+.autor {
+    font-family: philosopher;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #96cf06;
+    text-align: center;
+    color: #d1d5db;
+    font-size: 14px;
+}
+
+/*KELSY*/
+
+.bx-wrapper .bx-prev{
+    left: -50px;
+}
+
+.bx-wrapper .bx-next{
+    right: -50px;
+}
