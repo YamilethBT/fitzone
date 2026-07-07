@@ -625,3 +625,294 @@ body{
 .bx-wrapper .bx-next{
     right: -50px;
 }
+
+@media (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header img{
+        margin: 0 0 15px;
+        width: 170px;
+    }
+
+    #menu{
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    #menu a{
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    .imagensita img{
+        width: 100%;
+        height: auto;
+    }
+
+    #grid{
+        width: 95%;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 25px;
+        row-gap: 25px;
+        justify-items: center;
+    }
+
+    .creatinas,
+    .proteinas,
+    .preentreno,
+    .quemadores,
+    .ganadores,
+    .accesorios{
+        width: 100%;
+        max-width: 280px;
+        height: 240px;
+    }
+
+    .nuestrossuplementos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textito p{
+        padding: 0 30px;
+        font-size: 18px;
+    }
+
+    .imageno{
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .imageno img{
+        width: 90%;
+        height: auto;
+    }
+
+    .productos{
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        justify-items: center;
+    }
+
+    .producto1,
+    .colorblanco{
+        width: 300px;
+    }
+
+    .boton2{
+        width: 260px;
+    }
+
+    .cuadrop{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .rectangulo{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rectangulo img{
+        width: 170px;
+        margin: 0 0 20px;
+    }
+
+    .textittto h2,
+    .textittto p,
+    #fecha{
+        text-align: center;
+    }
+
+    #grid2{
+        flex-wrap: wrap;
+    }
+
+    #grid2 img{
+        width: 250px;
+        height: auto;
+    }
+
+    #contenedor3{
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+
+    .column2,
+    .column4{
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .bx-wrapper .bx-prev{
+        left: 10px;
+    }
+
+    .bx-wrapper .bx-next{
+        right: 10px;
+    }
+
+    #producto1_,
+    #producto2,
+    #producto3,
+    #producto4,
+    #producto5,
+    #producto6{
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .titulo,
+    .titulo2{
+        font-size: 22px;
+    }
+
+    header{
+        padding: 15px;
+    }
+
+    header img{
+        width: 150px;
+    }
+
+    #menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #menu a{
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    #grid{
+        grid-template-columns: 1fr;
+        width: 95%;
+        row-gap: 20px;
+    }
+
+    .creatinas,
+    .proteinas,
+    .preentreno,
+    .quemadores,
+    .ganadores,
+    .accesorios{
+        width: 100%;
+        max-width: 300px;
+        height: 220px;
+    }
+
+    .textito h1{
+        font-size: 35px;
+    }
+
+    .textito p{
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .imageno img{
+        width: 100%;
+    }
+
+    .productos{
+        grid-template-columns: 1fr;
+    }
+
+    .producto1,
+    .colorblanco{
+        width: 300px;
+    }
+
+    .boton2{
+        width: 260px;
+    }
+
+    .titulo5{
+        font-size: 38px;
+    }
+
+    .rectangulo{
+        padding: 20px 15px;
+    }
+
+    .rectangulo img{
+        width: 130px;
+    }
+
+    .textittto h2{
+        font-size: 24px;
+    }
+
+    .textittto p{
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    #fecha{
+        font-size: 13px;
+    }
+
+    #grid2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #grid2 img{
+        width: 300px;
+    }
+
+    #piePag{
+        padding: 30px 20px;
+    }
+
+    #contenedor3{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .logoPie img{
+        width: 170px;
+    }
+
+    .iconos{
+        justify-content: center;
+    }
+
+    .column2,
+    .column3,
+    .column4{
+        border: none;
+        padding: 0;
+    }
+
+    .column2 li{
+        justify-content: center;
+    }
+
+    #producto1_,
+    #producto2,
+    #producto3,
+    #producto4,
+    #producto5,
+    #producto6{
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
