@@ -1010,7 +1010,267 @@ main{
     text-align: center;
 }
 
+@media (max-width: 1024px) {
 
+    header img {
+        width: 150px;
+    }
+
+    #menu a {
+        font-size: 15px;
+        padding: 5px 12px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #primer_banner p {
+        font-size: 18px;
+    }
+
+    #carrusel {
+        height: 260px;
+    }
+
+    /* #promociones solo tenía flex-direction:row heredado del selector
+       genérico "main". Al ponerlo en columna, #p1 y #p2 se apilan. */
+    #promociones {
+        flex-direction: column;
+    }
+
+    #p1, #p2 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #p2 {
+        border-left: none;
+        border-top: 3px solid var(--gris_medio);
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+
+    #filtros, #promo_destacada {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* esta imagen tenía height:800px fijo, por eso se veía gigante/rara */
+    #p1 img {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+    }
+
+    #part1_relam h2, #part1_prom_dia h2, #part1_combo_creci h2 {
+        font-size: 36px;
+        height: auto;
+    }
+
+    #client_service {
+        flex-direction: column;
+    }
+
+    #preguntasF {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #Suscribirse {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    #contenedor3 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        justify-content: center;
+    }
+
+    header img {
+        margin-left: 0;
+        width: 120px;
+    }
+
+    #menu {
+        width: 100%;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    #menu a {
+        font-size: 13px;
+        padding: 5px 10px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    #primer_banner p {
+        font-size: 15px;
+        padding: 0 15px 15px;
+    }
+
+    #carrusel {
+        height: 180px;
+    }
+
+    #part1_relam h2, #part1_prom_dia h2, #part1_combo_creci h2 {
+        font-size: 28px;
+    }
+
+    #part1_relam h3 {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    /* tarjetas de producto de los 3 carruseles (ofertas, del día, combos) */
+    .productos_relam, .productos_prom_dia, .productos_combo_creci {
+        width: 230px;
+        margin-left: 10px;
+    }
+
+    .productos_relam img, .productos_prom_dia img, .productos_combo_creci img {
+        height: 150px;
+    }
+
+    .titulo {
+        font-size: 17px;
+    }
+
+    .info_product_relam, .info_product_prom_dia, .info_product_combo_creci {
+        font-size: 15px;
+    }
+
+    .descuent_prom_relam, .descuent_prom_dia, .descuent_combo_creci {
+        font-size: 20px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .precio_anterior_relam, .precio_anterior_prom_dia, .precio_anterior_combo_creci {
+        font-size: 15px;
+        width: 100px;
+        padding: 6px;
+    }
+
+    .comprar {
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+
+    .flechas, .flechas2 {
+        width: 32px;
+        height: 32px;
+    }
+
+    .flechas img, .flechas2 img {
+        width: 32px;
+        height: 32px;
+        padding: 7px;
+    }
+
+    #contenedor3 {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .column2, .column4 {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .iconos {
+        justify-content: center;
+    }
+
+    .column2 li {
+        justify-content: center;
+    }
+
+    .logoPie img {
+        margin: 0 auto 20px;
+        display: block;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #primer_banner p {
+        font-size: 13px;
+    }
+
+    #carrusel {
+        height: 140px;
+    }
+
+    #filtros ol ul li, #filtros ol li {
+        margin-left: 20px;
+    }
+
+    .productos_relam, .productos_prom_dia, .productos_combo_creci {
+        width: 190px;
+        padding: 10px;
+    }
+
+    .productos_relam img, .productos_prom_dia img, .productos_combo_creci img {
+        height: 120px;
+    }
+
+    .etiqueta_desc {
+        width: 55px;
+        height: 32px;
+        font-size: 18px;
+        margin-bottom: -35px;
+    }
+
+    .titulo {
+        font-size: 15px;
+    }
+
+    .info_product_relam, .info_product_prom_dia, .info_product_combo_creci {
+        font-size: 13px;
+    }
+
+    .comprar {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    #Suscribirse p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #Suscribirse a {
+        font-size: 20px;
+        padding: 12px;
+    }
+
+    #Suscribirse img {
+        width: 35%;
+    }
+}
 
 
 
